@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
@@ -109,4 +109,54 @@ a {
     background: #426B1F;
     color: #fff;
     transition: 500ms;
+}
+
+.shop {
+    margin-bottom: 50px;
+}
+
+.shop__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.shop__card {
+    max-width: 365px;
+    width: 100%;
+    border-radius: 24px;
+    border: 2px solid #e6e6e6;
+    background: #fafafa;
+    overflow: hidden;
+}
+
+.shop__img {
+    width: 395px;
+}
+
+.shop__content{
+    padding-left: 24px;
+}
+
+.shop__title {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #000;
+}
+
+.shop__sum {
+    font-size: 20px;
+    color: #426B1F;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.shop__txt {
+    padding-bottom: 28px;
+    color: #6d6d6d;
+    font-size: 16px;
+    line-height: 150%;
 }
