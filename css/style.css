@@ -246,6 +246,7 @@ a {
 }
 
 
+
 .order__desc-title {
     color: #000;
     font-weight: 600;
@@ -295,6 +296,7 @@ a {
     margin-top: 32px;
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    line-height: 130%;
     border: none;
+    cursor: pointer;
 }
